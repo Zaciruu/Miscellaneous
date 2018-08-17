@@ -22,9 +22,6 @@ def main():
         print(end=' ')
     print("Your {}-character password is valid: {}".format(len(password), i * '*' + '*'))
 
-# for i, number in enumerate(numbers):
-#     print("Number {0} is {1:>5}".format(i + 1, number))
-
 
 def is_valid_password(password):
     if len(password) < MIN_LENGTH or len(password) > MAX_LENGTH:
